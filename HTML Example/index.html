@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="description">
+	<title>abanoub</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="file.js"></script>
+	<!--[if lt IE 9]>
+		<script src="html5shiv.min.js"></script>
+	<![endif]-->
+	</head>
+	<body>
+	<header class="main">
+		<h1>HTML5 Course</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>Services</li>
+			<li>Contact Us</li>
+		</ul>
+	</nav>
+	<main>
+		<p>Welcome <mark>to our</mark> <span>Website</span></p>
+	</main>
+	<div class="post">
+	<article>
+		<header>
+			<h3>Our new frame milestone</h3>
+			<p>Created by <span>Abanoub</span> on <time datetime="2018-8-3">Aug, 3<sup>rd</sup>, 2018</time></p>
+		</header>
+		<section>
+		<p>This is article content number #01</p>
+		<div>
+			Design : <progress value="7" max="10"></progress><br>
+			Coding : <progress value="65" max="100"></progress><br>
+		</div>
+		</section>
+	</article>
+		<article>
+		<header>
+			<h3>Article about using &lt;Details&gt</h3>
+			<p>Created by <span>Abanoub</span></p>
+		</header>
+		<section>
+		<p>This is article content number #02</p>
+		<p>
+			<details>
+				<summary>References</summary>
+				<ul>
+					<li>Ref 1</li>
+					<li>Ref 2</li>
+					<li>Ref 3</li>
+				</ul>
+			</details>
+		</p>
+		</section>
+	</article>	
+	<article>
+		<header>
+			<h3>Article about using &lt;WBr&gt;</h3>
+			<p>Created by <span>Abanoub</span></p>
+		</header>
+		<section>
+		<p>This is article content number #03</p>
+		
+		<div class="long-link">
+			https://www.testinglonglink.com<wbr>/products.php?id=200</wbr><wbr>&cat=100</wbr><wbr>test=mainsection</wbr>
+		</div>
+		</section>
+	</article>
+	<article>
+		<header>
+			<h3>Article about using code inside &lt;Figure&gt;</h3>
+			<p>Created by <span>Abanoub</span></p>
+		</header>
+		<section>
+		<p>This code describe the div syntax</p>
+		<figure>
+			<figcaption>This is div syntax 1-3</figcaption>
+			<code>
+				&lt;div&gt;this is normal syntax for div&lt;/div&gt; 
+			</code>
+		</figure>
+		</section>
+	</article>
+	<article>
+		<header>
+			<h3>Article about using image inside &lt;Figure&gt;</h3>
+			<p>Created by <span>Abanoub</span></p>
+		</header>
+		<section>
+		<p>This code describe the image inside figure </p>
+		<dialog open>This is dialog of Html5</dialog>
+		<figure class="img-figure">
+			<img src="leo.jpg" alt="leo" title="Lionel Messi" />
+			<img src="leo.jpg" alt="leo" title="Lionel Messi" />
+			<img src="leo.jpg" alt="leo" title="Lionel Messi" />
+			<figcaption>These images contains leo-s see the full list at <a href="#">Here</a></figcaption>
+		</figure>
+		</section>
+	</article>
+	<article>
+		<header>
+			<h3>Article about using &lt;Video&gt;</h3>
+			<p>Created by <span>Abanoub</span></p>
+		</header>
+		<section>
+		<p>This is HTML5 Video </p>
+		<video controls width="320" height="300" loop muted poster="leo.jpg" preload="auto">
+			<source src="7odn.mp4" type="video/mp4">
+			<source src="7odn.ogg" type="video/ogg">
+			<source src="7odn.webm" type="video/webm">
+			Your browser doesn't support video technology
+		</video>
+		</section>
+	</article>
+	<article>
+		<header>
+			<h3>Article about using new Form input field;</h3>
+			<p>Created by <span>Abanoub</span></p>
+		</header>
+		<section>
+		<p>New input Field</p>
+		<form class="html5">
+			<label>Color</label>
+			<input type="color" name="Theme" value="#0000FF">
+			<label>Range</label>
+			<input type="range" name="choose" min="0" max="100" step="25" value="1">
+			<label>Number</label>
+			<input type="number" min="0" max="30" step="10" >
+			<label>Email</label>
+			<input type="email" name="email">
+			<label>Search</label>
+			<input type="search" name="search">
+			<label>URL</label>
+			<input type="url" name="link">
+			<label>Telephone</label>
+			<input type="tel" name="telephone"><!-- bisht8l 3la safari bs --> 
+			<label>Time</label>
+			<input type="time" name="timing">
+			<label>Datetime</label>
+			<input type="datetime-local" name="datetime">
+			<label>Date</label>
+			<input type="date" name="date">
+			<label>Month</label>
+			<input type="month" name="month">
+			<label>Week</label>
+			<input type="week" name="week">
+			<input type="submit" value="send">
+		</form>
+		</section>
+	</article>
+	<article>
+		<header>
+			<h3>Article about using New Form Attributes</h3>
+			<p>Created by <span>Abanoub</span></p>
+		</header>
+		<section>
+		<p>New Form Attributes </p>
+		<form id="main-form" class="html5" action="process.php" method="get" enctype="multipart/form-data" >
+			<label>Username</label>
+			<input type="username" name="username" autofocus="on">
+			<label>Email</label>
+			<input type="email" name="mail" autocomplete="off">
+			<label>Pattern</label>
+			<input type="text" pattern="[A-Za-z]{6}" required>
+			<label>Read Only</label>
+			<input type="text" name="read" value="abanoub-read" readonly>
+			<label>Disabled</label>
+			<input type="text" name="dis" value="abanoub-dis" disabled>
+			<input type="submit" value="default submit" >
+			<input type="submit" formaction="other.php" formmethod="post"  value="other submit">
+			<input type="submit" formnovalidate value="Submit without validate">
+			<input type="submit" formnovalidate formtarget="_blank" value="Submit in new window">
+		</form>
+		<label>Nickname</label>
+		<input type="text" name="nickname" form="main-form">		  
+		</section>
+	</article>
+	</div>
+	<aside>
+		<section class="links">
+			<h3>Categories</h3>
+			<ul>
+				<li>Intro</li>
+				<li>Semantics</li>
+				<li>Api</li>
+				<li>New Attributes</li>
+				<li>Multimedia Elements</li>
+			</ul>
+		</section>
+		<section class="meters">
+			<h3>Performance</h3>
+			<div>
+			cpu : <meter
+					 min="0"
+					 max="1" 
+					 value=".4" 
+					 low=".5" 
+					 high=".8" 
+					optimum=".5">
+					</meter>
+			</div>
+		</section>
+		<section class="top-members">
+			<h3>Top members</h3>
+				<ul>
+					<li>Abanoub: 100 Points</li>
+					<li>Shenouda: 150 Points</li>
+					<li>Pola: 120 Points</li>
+					<li><bdi>ماجد</bdi>:50 points</li>
+				</ul>
+		</section>
+		<section class="poll">
+			<h3>What is your best browser?</h3>
+			<form>
+				<input list="Browsers">
+				<datalist id="Browsers">
+					<option value="Chrome">
+					<option value="Firefox">
+					<option value="Safari">
+					<option value="Opera">
+					<option value="Internet Explorer">
+				</datalist>
+				<input type="submit" value="choose">
+			</form>
+		</section>
+		<section class="calculate-age">
+			<h3>Calculate your age in days </h3>
+			<form oninput="result.value=parseInt(age.value)*parseInt(days.value)+' Days'">
+			<input type="text" name="age">
+			<input type="hidden" name="days" value="365">
+			<output name="result"></output>
+			</form>
+		</section>
+		<section>
+			<h3>Today's Audio</h3>
+			<audio controls autoplay loop muted src="lawkan.mp3" preload="metadata">
+				<source src="lawkan.mp3" type="audio/mbeg">
+				<source src="lawkan.ogg" type="audio/ogg">
+				Your browser doesn't support audio technology
+			</audio>
+		</section>
+	</aside>
+	<div class="clearfix"></div>
+	<footer>
+		Copyright 2018 &copy; All Right Reserved
+	</footer>
+	</body>
+</html>

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="description">
+	<title>jQuery</title>
+	<link rel="stylesheet" href="test.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">     
+	</head>
+
+	<body>
+		<!--Start Navbar !-->
+		<ul class="navbar">
+			<li><a href="#" data-scroll="home">Home</a></li>
+			<li><a href="#" data-scroll="about-us">About Us</a></li>
+			<li><a href="#" data-scroll="services">Services</a></li>
+			<li><a href="#" data-scroll="solutions">Solutions</a></li>
+			<li><a href="#" data-scroll="products">Products</a></li>
+			<li><a href="#" data-scroll="contact-us">Contact Us</a></li>
+		</ul>
+		<!--End Navbar !-->
+
+		<!--Start Fixed menu !-->
+		<div class="fixed-menu">
+			<i class="fas fa-cogs"></i>
+			<h3>Change Colors</h3>
+			<ul class="change-colors">
+				<li data-color="blue"></li>
+				<li data-color="red"></li>
+				<li data-color="green"></li>
+				<li data-color="purple"></li>
+			</ul>
+			<h3>Important Links</h3>
+			Testing Links
+			
+		</div>
+		<!--End Fixed menu !-->
+		<!--Start Section !-->
+		<div id="home" class="block">
+			<h2 class="skin-color">Home</h2>
+			<span class="show-popup" data-popup="first-popup">Show 1st Popup</span>
+			<span class="show-popup" data-popup="second-popup">Show 2nd Popup</span>
+		
+		
+		<!--Start Error Message !-->
+		<div class="error-message">
+			This is error message this is error message 
+		</div>
+		<!--End Error Message !-->
+		
+
+
+		<!--Start Button with effect !-->
+		<div class="buttons-effects">
+			<button class="buttons-effect from-left">
+				<span></span>
+				<span>From left</span>				
+			</button>
+			<button class="buttons-effect from-top">
+				<span></span>
+				<span>From top</span>				
+			</button>
+			<button class="buttons-effect border-left">
+				<span></span>
+				<span>Border from left</span>				
+			</button>
+			<button class="buttons-effect border-top">
+				<span></span>
+				<span>Border from top</span>				
+			</button>
+
+		</div>
+		<div class="buttons-effects">
+			<button class="buttons-effect bounce bounce-one"> 
+				Bounce once
+			</button>
+			<button class="buttons-effect bounce bounce-two"> 
+				Bounce twice
+			</button>
+			
+		</div>
+		<!--End Button with effect !-->
+		<!--Start progress bar!-->
+		<div class="animated-progress progress-blue">
+			<span data-progress="25"></span>
+		</div>
+		<span class="perc"></span>
+		<div class="animated-progress progress-red">
+			<span data-progress="45"></span>
+		</div>
+		<span class="perc"></span>
+		<div class="animated-progress progress-green">
+			<span data-progress="65"></span>
+		</div>
+		<span class="perc"></span>
+		<div class="animated-progress progress-purple">
+			<span data-progress="85"></span>
+		</div>
+		<span class="perc"></span>
+		<!--End progress bar !-->
+		<!--Start Gallery!-->
+		<div class="gallery">
+			<div class="master-img">
+				<i class="skin-background fa fa-chevron-left fa-lg"></i>
+				<i class="skin-background fa fa-chevron-right fa-lg"></i>
+				<img src="img/1.jpg" alt="" />
+			</div>
+			<div class="thumbnails">
+				<img class="selected" src="img/1.jpg" alt="" />
+				<img src="img/2.jpg" alt="" />
+				<img src="img/3.jpg" alt="" />
+				<img src="img/4.jpg" alt="" />
+				<img src="img/5.jpg" alt="" />
+			</div>
+			
+		</div>
+		<!--End Gallery!-->
+
+
+		<!--Start Products!-->
+		<div class="products">
+			<div class="product">
+				<h3>Product One</h3>
+				<span class="date">25/4/2018</span>
+				<img src="http://placehold.it/100/100" alt="">
+				<i class="fa fa-plus fa-lg"></i>
+				<p class="discription">This is test decription</p>
+			</div>
+			<div class="product">
+				<h3>Product Two</h3>
+				<span class="date">25/4/2018</span>
+				<img src="http://placehold.it/100/100" alt="">
+				<i class="fa fa-plus fa-lg"></i>
+				<p class="discription">This is test decription</p>
+			</div>
+			
+		</div>
+
+		<!--End Products!-->
+
+		<!--Start Grid/list Products!-->
+		<div class="items list-view">
+			<div class="view-options">
+				<i class="active fa fa-list fa-fw fa-2x" data-class="list-view"></i>
+				<i class="fa fa-th-large fa-fw fa-2x" data-class="grid-view"></i>
+			</div>
+			<div class="item first">
+				<h3>Item One</h3>
+				<span class="date">25/4/2018</span>
+				<img src="http://placehold.it/100/100" alt="">
+				<i class="fa fa-plus fa-lg"></i>
+				<p class="discription">This is test decription</p>
+			</div>
+			<div class="item">
+				<h3>Item Two</h3>
+				<span class="date">25/4/2018</span>
+				<img src="http://placehold.it/100/100" alt="">
+				<i class="fa fa-plus fa-lg"></i>
+				<p class="discription">This is test decription</p>
+			</div>
+			
+		</div>
+
+		<!--End Grid/list Products!-->
+
+		<!--Start our Form-->
+		<div class="our-form">
+			 <form>
+			 	<div>
+			 		<input class="detect-unicode" type="text" required="required" placeholder="Type Your Name" />
+					<span class="the-message" >Please fill this field</span>
+					<div class="unicode"></div>
+				</div>
+				<div>
+					<input class="auto-direction" type="email" required="required" placeholder="Type Your E-mail" />
+					<span class="the-message" >Please fill this field</span>
+				</div>
+				<div>
+					<input type="password" required="required" placeholder="Type Your Password" />
+					<span class="the-message" >Please fill this field</span>
+				</div>
+				<div>
+					<textarea required="required" placeholder="Type Your Message"></textarea>
+					<span class="the-message" >Please fill this field</span>
+				</div>
+				<div>
+					<input class="add-tag" type="text" placeholder="Type Your Tags then press[,]" />
+					<div class="tags"></div>
+				</div>
+				<div>
+					<input type="file" />
+				</div>
+				<input type="submit" value="Send" />			 	
+			 </form>
+			
+		</div>
+
+		<!--End our Form-->
+
+		<!--Start Trimmed Text-->
+		<div class="trimmed-texts">
+			<p class="p-one"> Lorem ipsum dolor set amet, ea doming epicuri iudicapit nam, porto bruto disputando cu est, te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est</p>
+			<p class="p-two"> Lorem ipsum dolor set amet, ea doming epicuri iudicapit nam, porto bruto disputando cu est, te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est</p>
+			
+		</div>
+		<!--End Trimmed Text-->
+
+		<!--Start same height Divs-->
+		<div class="container same-height">
+			<div class="one">
+				 Lorem ipsum dolor set amet, ea doming epicuri iudicapit nam, porto bruto disputando cu est, te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est
+			</div>
+			<div class="two">
+				 Lorem ipsum dolor set amet, ea doming epicuri iudicapit nam, porto bruto disputando cu est, te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat.
+			</div>
+			<div class="three">
+				 Lorem ipsum dolor set amet, ea doming epicuri iudicapit nam, porto bruto disputando cu est, te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. 
+			</div>	
+		</div>
+		<!--End same height Divs-->
+
+		<!--Start Shuffling Cards-->
+		<div class="container">
+			<div class="cards">
+				<div class="card card-one"></div>
+				<div class="card card-two"></div>
+				<div class="card card-three"></div>
+				<div class="card card-four"></div>
+				<div class="card card-five"></div>
+				<div class="card card-six"></div>
+				<div class="card card-seven"></div>
+				<div class="card card-eight"></div>
+			</div>			
+		</div>
+		<!--End Shuffling Cards-->
+
+
+		<!--Start blink warning-->
+		<div class="container">
+			<h3 class="blink-warning">This is Warning</h3>
+			
+		</div>
+		<!--End blink warning-->
+
+		<!--Start To Do List-->
+		<div class="container">
+			<div class="todo-list">
+				<h3>ToDo List</h3>
+				<ul class="tasks">
+					<li>Finishing Python Course</li>
+					<li>Starting Bootstrap Course</li>
+					<li>Call my friend BOLLA</li>
+				</ul>
+				<form class="add-task" method="POST">
+					<input class="task-input" type="text" name="task" placeholder="Add New Task" />
+				</form>
+			</div>
+			
+		</div>
+		<!--End To Do List-->
+
+
+		<!--Start TypeWriting Effects-->
+		<div class="container">
+			<p class="typer" data-text="Lorem ipsum dolor set amet, ea doming epicuri iudicapit nam, porto bruto disputando cu est, te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est  te usu virtute placerat. porto bruto disputando cu est">
+			
+		</div>
+		<!--End TypeWriting Effects-->
+
+		<!--Start Table Summary-->
+		<div class="container">
+		<table class="summary">
+		<tr>
+			<td>Name</td>
+			<td>Value</td>
+			<td>Price</td>
+		</tr>
+		<tr>
+			<td>Data One</td>
+			<td>10 Items</td>
+			<td class="price">100</td>
+		</tr>
+		<tr>
+			<td>Data Two</td>
+			<td>5 Items</td>
+			<td class="price">80</td>
+		</tr>
+		<tr>
+			<td>Data Three</td>
+			<td>1 Items</td>
+			<td class="price">20</td>
+		</tr>
+		<tr>
+			<td>Data Four</td>
+			<td>20 Items</td>
+			<td class="price">200</td>
+		</tr>
+		<tr>
+			<td>Data Five</td>
+			<td>2 Items</td>
+			<td class="price">28</td>
+		</tr>
+		<tr>
+			<td colspan="2">Total:</td>
+			<td class="the-total"></td>
+		</tr>
+		</table>
+	</div>
+		<!--End Table Summary-->
+
+		<!--Start auto changing Notes-->
+		<div class="container">
+			<div class="text-ticker">
+				<h3>Today Notes</h3>
+				<ul class="ticker-list">
+					<li class="active">This is Line number One to test</li>
+					<li>This is Line number Two to test</li>
+					<li>This is Line number Three to test</li>
+					<li>This is Line number Four to test</li>
+					<li>This is Line number Five to test</li>
+					<li>This is Line number Six to test</li>
+				</ul>
+				
+			</div>
+			
+		</div>
+		<!--End auto changing Notes-->
+
+		<!--Start Dynamic Tabs-->
+		<div class="container">
+			<span class="switch-tabs">Switch View</span>
+			<div class="dynamic-tabs">
+				<ul class="tabs-list">
+					<li class="active" data-content=".content-one">One</li>
+					<li data-content=".content-two">Two</li>
+					<li data-content=".content-three">Three</li>
+					<li data-content=".content-four">Four</li>
+					<li data-content=".content-five">Five</li>
+				</ul>
+				<div class="content-list">
+					<div class="content-one">This is Content number One</div>
+					<div class="content-two">This is Content number Two</div>
+					<div class="content-three">This is Content number Three</div>
+					<div class="content-four">This is Content number Four</div>
+					<div class="content-five">This is Content number Five</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--End Dynamic Tabs-->
+
+		<!--Start Email Suggest Box-->
+		<div class="container">
+			<form>
+				<input
+				class="email-suggest"
+				type="email"
+				name="email"
+				autocomplete="off"
+				placeholder="Type Your Email" />
+				
+			</form>
+			
+		</div>
+		<!--End Email Suggest Box-->
+
+		</div>
+
+		<div id="about-us" class="block">
+			<h2>About Us</h2>
+		</div>
+		<div id="services" class="block">
+			<h2>Services</h2>
+		</div>
+		<div id="solutions" class="block">
+			<h2>Solutions</h2>
+		</div>
+		<div id="products" class="block">
+			<h2>Products</h2>
+		</div>
+		<div id="contact-us" class="block">
+			<h2>Contact Us</h2>
+		</div>
+
+		<!--End Section !-->
+		<!--Start ScrollToTop !-->
+		<a class="scroll-to-top" href="#">
+			<i class="fas fa-chevron-up"></i>
+		</a>
+		<!--End ScrollToTop !-->
+
+		<!--Start Popup !-->
+		<div class="popup first-popup">
+			<div class="inner">
+				<h2>This is 1st popup</h2>
+				<p> Lorem ipsum dolor set amet, ea doming epicuri iudicapit nam, porto bruto disputando cu est, te usu virtute placerat. porto bruto disputando cu est</p>
+				<button class="close">Close</button>
+			</div>
+			
+		</div>
+		<div class="popup second-popup">
+			<div class="inner">
+				<h2>This is 2nd popup</h2>
+				<p> Lorem ipsum dolor set amet, ea doming epicuri iudicapit nam, porto bruto disputando cu est, te usu virtute placerat. porto bruto disputando cu est</p>
+				<button class="close">Close</button>
+			</div>
+			
+		</div>
+		<!--End Popup !-->
+
+
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="test.js"></script>
+	</body>
+</html>

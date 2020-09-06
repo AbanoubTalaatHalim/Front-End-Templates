@@ -1,0 +1,81 @@
+
+		<meta charset="utf-8">
+		<meta name="description" content="Welcome to my Website">
+		<title> abanoub </title>
+		<style>
+			body {background:#EFEFEF;font-family:Arial,Tahoma}
+			fieldset
+			{
+				background: #FFF;
+				border: 1px solid #CCC;
+				padding: 20px;
+				margin-bottom: 20px;
+				margin: 20px auto;
+				width:500px; 
+			}
+			legend
+			{
+				background: #FFF;
+				border: 1px solid #CCC;
+				padding: 10px;
+			}
+			label{margin-bottom: 10px;display: block;}
+			input{margin-bottom: 10px;}
+			input[type="text"],input[type="password"], 
+			textarea
+			{
+				padding:8px;
+				width:300px;
+				display: block;
+			}
+			hr{border: 1px solid #EEE}
+			textarea
+			{
+				height:200px;
+				margin-bottom: 10px;
+			}
+
+
+
+
+
+
+
+<form name="Register">
+			<fieldset>
+				<legend>Personal Information</legend>
+				<label>Username</label>
+				<input type="text" name="Username">
+				<label>Password</label>
+				<input type="Password" name="Password">
+				<label>E-mail</label>
+				<input type="text" name="email">
+				<label>Gender</label>
+				<select name="gender">
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Favourites</legend>
+				<label>Your Favourite Text Editors</label>
+				<input type="radio" name="editor">Sublime Text<br>
+				<input type="radio" name="editor">NetBeans<br>
+				<input type="radio" name="editor">Komodo Edit
+				<hr>
+				<label>Your Favourite Browsers</label>
+				<input type="radio" name="Browsers">Google Chrome<br>
+				<input type="radio" name="Browsers">Opera<br>
+				<input type="radio" name="Browsers">Firefox
+			    <hr>
+				<label>Your Favourite Operating Systems</label>
+				<input type="Checkbox">Windows<br>
+				<input type="Checkbox">Linux<br>
+				<input type="Checkbox">Mac OSX
+			</fieldset>
+			<fieldset>
+				<legend>Your Message</legend>
+				<textarea></textarea>
+				<input type="Submit" value="Send Your Data" >
+			</fieldset>
+		

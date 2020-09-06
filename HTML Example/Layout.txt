@@ -1,0 +1,52 @@
+body{margin: 0;padding: 0;font-family: Arial,Tahoma}
+			.Header
+			{
+				background: #333;
+				color: #FFF;
+				font-size: 20px;
+				text-align: center;
+				padding: 20px 0
+			}
+			.Navigation
+			{
+				background: #DDD;
+				color: #676767;
+				text-align: center;
+			}
+			ul{list-style: none;padding: 0;margin: 0;}
+			ul li{display: inline-block;padding: 10px;}
+
+			.content
+			{
+				text-align: center;
+				padding: 20px 0;
+			}
+			.Footer 
+			{
+				background: #333;
+				color: #FFF;
+				text-align: center;
+				padding: 20px 0
+			}
+
+
+
+<div class="Header">Header</div>
+			<div class="Navigation">
+				<ul>
+					<li>Div</li>
+					<li>Paragraph</li>
+					<li>Heading</li>
+					<li>Unorderd Lists</li>
+					<li>Form</li>
+				</ul>
+			</div>
+			<div class="content">
+				<h1>Lionel Messi</h1>
+				<img src="FB_IMG_1484227464334.jpg" alt="Lionel Messi">
+				<p>Lionel Messi is a (G.O.A.T)</p>	
+				<a href="https://messi.com">Visit Leo's Website </a>
+			</div>
+			<div class="Footer">
+				Copyright &copy; 2018 All Right Reserved To Abanoub &reg;
+			</div>
